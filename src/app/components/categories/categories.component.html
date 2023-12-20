@@ -1,0 +1,11 @@
+
+
+    <div class="category-1 fixed" >
+        <h1>All Categories </h1>
+       <div class="grid-container" >
+         
+         <div (click)="productshow(category)" class="grid-item" *ngFor="let category of categoriesList"> <div class="category">   <img [src]="this.list.getFirstProductImage(category)" alt="" height="200px" width="200px"><p class="text">{{category}}</p></div> </div>
+    
+        </div>
+
+    </div>

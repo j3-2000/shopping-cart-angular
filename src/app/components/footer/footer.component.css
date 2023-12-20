@@ -1,0 +1,14 @@
+
+.main-footer {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  background-color: rgb(6, 6, 240);
+  color: #fff7f7;
+}
+

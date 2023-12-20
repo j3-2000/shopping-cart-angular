@@ -1,0 +1,53 @@
+
+  <div class="wrapper">
+    <h1>Shopping Cart</h1>
+    <div *ngIf="(cartProducts$ | async)?.length === 0">
+      <h1 class="h1w">Your cart is empty. Go and Shop</h1>
+    </div>
+    <div class="project"  >
+    
+      <div class="shop" [style.display]="check() ? 'display: block' : 'display: none'">
+        <div class="box" *ngFor="let product of cartProducts">
+          <img [src]="product.image">
+          <div class="content">
+            <h3>{{ product.name }}</h3>
+            <h4>Price : ₹ {{ product.price }}</h4>
+            <h4>Selected Size : {{ product.selectedSize }}</h4>
+            <div class="color">
+              <h4>Selected Color</h4> <span [ngStyle]="{'background-color': product.selectedColor}" class="sp1"></span>
+            </div>
+
+
+            <label for="quantity">Quantity:</label>
+            <button (click)="increaseQuantity(product)" class="bt-p">+</button>
+            <input type="number" id="quantity" [(ngModel)]="product.quantity" class="q-input" />
+            <button (click)="decreaseQuantity(product)" class="bt-p">-</button>
+
+            <button class="btnarea" (click)="editpage(product.id)">Change Size/Color</button>
+
+
+            <div *ngFor="let product of cartProducts$ | async">
+
+              <button (click)="removeFromCart(product.id)" class="btn-area"><i aria-hidden="true"
+                  class="fa fa-trash"></i> <span class="btn2">Remove</span></button>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="right-bar" *ngIf="!check(); ">
+        <p><span>Subtotal</span> <span>₹ {{ total.toFixed(2) }}</span></p>
+        <hr>
+        <a (click)="checkout()"><i class="fa fa-shopping-cart"></i>Checkout</a>
+      </div>
+
+    </div>
+    <div>
+
+    </div>
+
+
+  </div>

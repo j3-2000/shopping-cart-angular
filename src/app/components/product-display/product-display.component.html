@@ -1,0 +1,83 @@
+
+    <div class="container">
+        <div class="single-product" *ngFor=" let product of cart">
+            <div class="row">
+                <div class="col-6">
+                    <div class="product-image">
+
+                        <ng-image-slider #nav [images]="imageObject" [infinite]="true" [autoSlide]="1"
+                            [imageSize]="{width: '350px', height: '400px'}" slideImage="1"></ng-image-slider>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="breadcrumb">
+                        <span><a href="#">Home</a></span>
+                        <span><a href="#">Product</a></span>
+                        <span class="active">{{product.name}}</span>
+                    </div>
+
+                    <div class="product">
+                        <div class="product-title">
+                            <h2>{{product.name}}</h2>
+                        </div>
+                        <div class="product-rating">
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bxs-star"></i></span>
+                            <span><i class="bx bx-star"></i></span>
+                            <span><i class="bx bx-star"></i></span>
+                            <span class="review">(45 Review)</span>
+                        </div>
+                        <div class="product-price" *ngIf="product.spPrice !== undefined ; else block">
+                            <span class="sale-price">₹{{product.price}} </span>
+                            <span class="price">₹{{product.spPrice}}</span>
+                        </div>
+                        <ng-template #block>
+                            <span class="price1">₹ {{product.price}}</span>
+                        </ng-template>
+                        <div class="product-details">
+                            <h3>Description</h3>
+                            <p>{{product.description}}</p>
+                        </div>
+                        <div class="product-size">
+                            <h4>Size</h4>
+                            <div class="size-layout" *ngFor=" let s of size1">
+                                <input type="radio" name="size" [value]="s.value" [id]="s.id" class="size-input"
+                                    [(ngModel)]="selectedSize" (change)="onSelectSize(s.value)">
+                                <label [for]="s.id" class="size">{{s.value}}</label>
+
+                            </div>
+                        </div>
+                        <div class="product-color">
+                            <h4>Color</h4>
+
+                            <div class="color-layout" *ngFor="let c of color">
+                                <input type="radio" name="color" [id]="c.id" [value]="c.value" class="color-input"
+                                    [(ngModel)]="selectedColor" (change)="onSelectColor(c.value)">
+                                <label [for]="c.id" class="color" [ngStyle]="{'background-color': c.value}"></label>
+                            </div>
+
+                        </div>
+                        <span class="divider"></span>
+
+                        <div class="product-btn-group" *ngIf="!checkButton(); else elseBlock">
+
+                            <button (click)=" addToCart(product)" class="button add-cart"><i class='bx bxs-cart'></i>
+                                Add to Cart</button>
+
+                            <div class="button heart"><i class='bx bxs-heart'></i> Add to Wishlist</div>
+
+
+                        </div>
+                        <ng-template #elseBlock>
+                            <div class="product-btn-group">
+                                <button [disabled]="true" class="button add-cart"><i class='bx bxs-cart'></i>
+                                    Out of Stock😞</button>
+                            </div>
+                        </ng-template>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

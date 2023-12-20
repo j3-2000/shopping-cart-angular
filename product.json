@@ -1,0 +1,450 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Blue T-Shirt",
+      "price": 19.99,
+      "spPrice": 17.50,
+      "category": "App0arel",
+      "categories": [
+        "Apparel",
+        "Fashion"
+      ],
+      "description": "A comfortable blue T-shirt made from high-quality fabric.",
+      "image": "https://m.media-amazon.com/images/I/81xYqbiH7AL._SX569_.jpg",
+      "imagearr": [
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue1_1bb61c5d-b86f-4577-a2cb-36d64d079ae9.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://www.blu99.com/cdn/shop/files/DarkBlue1_1bb61c5d-b86f-4577-a2cb-36d64d079ae9.jpg?v=1696273782&width=1946"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208"
+        }
+      ],
+      "attributes": {
+        "color": [
+          {
+            "id": 11,
+            "value": "red"
+          },
+          {
+            "id": 22,
+            "value": "blue"
+          },
+          {
+            "id": 33,
+            "value": "black"
+          },
+          {
+            "id": 44,
+            "value": "orange"
+          }
+        ],
+        "size": [
+          {
+            "id": 1,
+            "value": "S"
+          },
+          {
+            "id": 2,
+            "value": "M"
+          },
+          {
+            "id": 3,
+            "value": "L"
+          },
+          {
+            "id": 4,
+            "value": "Xl"
+          }
+        ]
+      },
+      "Quantity": 12,
+      "managestock": true
+    },
+    {
+      "id": 2,
+      "name": "red T-Shirt",
+      "price": 20.99,
+      "category": "App0arel",
+      "categories": [
+        "Apparel",
+        "Fashion"
+      ],
+      "description": "A comfortable blue T-shirt made from high-quality fabric.",
+      "image": "https://m.media-amazon.com/images/I/717-usf7wkL._SX569_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/91IPPl++jXL._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/915HgWAhLaL._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/A16fhp8d6+L._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61SRnA9uI-L._SX569_.jpg"
+        }
+      ],
+      "attributes": {
+        "color": [
+          {
+            "id": 11,
+            "value": "red"
+          },
+          {
+            "id": 22,
+            "value": "blue"
+          },
+          {
+            "id": 33,
+            "value": "black"
+          },
+          {
+            "id": 44,
+            "value": "orange"
+          }
+        ],
+        "size": [
+          {
+            "id": 1,
+            "value": "S"
+          },
+          {
+            "id": 2,
+            "value": "M"
+          },
+          {
+            "id": 3,
+            "value": "L"
+          },
+          {
+            "id": 4,
+            "value": "Xl"
+          }
+        ]
+      },
+      "Quantity": 100,
+      "managestock": false
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch",
+      "price": 29.99,
+      "spPrice": 25.50,
+      "category": "Electronics",
+      "categories": [
+        "Electornics",
+        "Watch"
+      ],
+      "description": "A stylish watch hoodi keeps you in style.",
+      "image": "https://m.media-amazon.com/images/I/41HLMvalT6L._SX300_SY300_QL70_FMwebp_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/61JtVmcxb0L._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/61C2dwwcjLL._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61UdzIP1Q5L._SX569_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61dmql3gf2L._SX569_.jpg"
+        }
+      ],
+      "attributes": {
+        "color": [
+          {
+            "id": 11,
+            "value": "red"
+          },
+          {
+            "id": 22,
+            "value": "blue"
+          },
+          {
+            "id": 33,
+            "value": "black"
+          },
+          {
+            "id": 44,
+            "value": "orange"
+          }
+        ]
+      },
+      "Quantity": 100,
+      "managestock": false
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "price": 59.99,
+      "spPrice": 55.50,
+      "category": "Footwear",
+      "categories": [
+        "Footwear",
+        "Shoes"
+      ],
+      "description": "High-performance running shoes for your daily workout.",
+      "image": "https://m.media-amazon.com/images/I/61DQb9hlHrL._SY625_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/61DQb9hlHrL._SY625_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/615SLX74naL._SY625_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/71Hgf8UFKTL._SY625_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61rrDLu3rAL._SY625_.jpg"
+        }
+      ],
+      "attributes": {
+        "color": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "size": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ]
+      },
+      "managestock": false
+    },
+    {
+      "id": 5,
+      "name": "casual Shoes",
+      "price": 59.99,
+      "category": "Footwear",
+      "categories": [
+        "Footwear",
+        "Shoes"
+      ],
+      "description": "High-performance running shoes for your daily workout.",
+      "image": "https://m.media-amazon.com/images/I/61Utm7DPFxL._SY625_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/61Utm7DPFxL._SY625_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/71L9CKw5NLL._SY695_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61UGcJzt72L._SY625_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61roggHzgzL._SY625_.jpg"
+        }
+      ],
+      "attributes": {
+        "color": [
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "size": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ]
+      },
+      "managestock": false
+    },
+    {
+      "id": 6,
+      "name": "Moisturizer",
+      "price": 59.99,
+      "spPrice": 55.50,
+      "category": "SkinCare",
+      "categories": [
+        "Skincare",
+        "Medicine"
+      ],
+      "description": "High-performance moisturizer for your daily skincare.",
+      "image": "https://m.media-amazon.com/images/I/31F1Hd8wwwL._SX300_SY300_QL70_FMwebp_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/610GiIogTNL._SX679_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/71yWE+2mFOL._SX679_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61ekyDQczzL._SX679_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61I-5lJauzL._SX679_.jpg"
+        }
+      ],
+      "managestock": false
+    },
+    {
+      "id": 7,
+      "name": "Smart band",
+      "price": 29.99,
+      "category": "Electronics",
+      "categories": [
+        "Electornics",
+        "Sports"
+      ],
+      "description": "A stylish watch hoodi keeps you in style.",
+      "image": "https://m.media-amazon.com/images/I/41fIeJ+hZKL.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/519zfG-4iQL._SL1010_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/41p09HTd+ZL.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/51omrqn8jgL._SL1000_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61tdWme28aL._SL1500_.jpg"
+        }
+      ],
+      "managestock": true
+    },
+    {
+      "id": 8,
+      "name": "Hair oil",
+      "price": 59.99,
+      "category": "SkinCare",
+      "categories": [
+        "Skincare",
+        "Medicine"
+      ],
+      "description": "High-performance moisturizer for your daily skincare.",
+      "image": "https://m.media-amazon.com/images/I/41TY3WhUgtL._SX300_SY300_QL70_FMwebp_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/41TY3WhUgtL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/61J+wqK4yWL._SY450_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61rYZnzGsDL._SY450_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61H2UQ875fL._SY450_.jpg"
+        }
+      ],
+      "Quantity": 100,
+      "managestock": false
+    },
+    {
+      "id": 9,
+      "name": "Dabur oil",
+      "price": 59.99,
+      "category": "Skincare",
+      "categories": [
+        "Medicine"
+      ],
+      "description": "High-performance moisturizer for your daily skincare.",
+      "image": "https://m.media-amazon.com/images/I/41TY3WhUgtL._SX300_SY300_QL70_FMwebp_.jpg",
+      "imagearr": [
+        {
+          "image": "https://images.pexels.com/photos/16098659/pexels-photo-16098659/free-photo-of-portrait-of-a-man-with-a-bird.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "thumbImage": "https://m.media-amazon.com/images/I/41TY3WhUgtL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue2.jpg?v=1696273782&width=1946",
+          "thumbImage": "https://m.media-amazon.com/images/I/61J+wqK4yWL._SY450_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61rYZnzGsDL._SY450_.jpg"
+        },
+        {
+          "image": "https://www.blu99.com/cdn/shop/files/DarkBlue4.jpg?v=1696273780&width=208",
+          "thumbImage": "https://m.media-amazon.com/images/I/61H2UQ875fL._SY450_.jpg"
+        }
+      ],
+      "managestock": false
+    },
+    {
+      "id": 10,
+      "name": "Green Hoodie",
+      "price": 29.99,
+      "category": "Apparel",
+      "categories": ["Apparel", "Fashion"],
+      "description": "A stylish green hoodie for a trendy look.",
+      "image": "https://m.media-amazon.com/images/I/418DGt+bn0L.jpg",
+      "imagearr": [
+        {
+          "image": "https://www.example.com/green-hoodie-1.jpg",
+          "thumbImage": "https://m.media-amazon.com/images/I/418DGt+bn0L.jpg"
+        },
+        {
+          "image": "https://www.example.com/green-hoodie-2.jpg",
+          "thumbImage": "https://m.media-amazon.com/images/I/41v45TyUXnL._SY679_.jpg"
+        },
+        {
+          "image": "https://www.example.com/green-hoodie-2.jpg",
+          "thumbImage": "https://m.media-amazon.com/images/I/41YPnQo6AiL._SY679_.jpg"
+        }
+      ],
+      "attributes": {
+        "color": [
+          { "id": 55, "value": "green" },
+          { "id": 66, "value": "gray" }
+        ],
+        "size": [
+          { "id": 5, "value": "S" },
+          { "id": 6, "value": "M" },
+          { "id": 7, "value": "L" },
+          { "id": 8, "value": "XL" }
+        ]
+      },
+      "Quantity": 20,
+      "managestock": true
+    }
+
+  ]
+}

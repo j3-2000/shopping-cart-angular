@@ -1,0 +1,9 @@
+
+    <span class="main-container" >
+            <div class="products" *ngFor=" let i of categoryProducts" (click)="selectProduct(i.id,i.name,i,i.managestock)" >
+                <div class="image"><img [src]='i.image' alt="no-img" height="200px" width="200px"></div>
+                <h2 > {{i.name}}</h2>   <h3>₹ {{i.price}}</h3>
+                <p class="t">{{i.description}}</p>
+              
+            </div>
+    </span>

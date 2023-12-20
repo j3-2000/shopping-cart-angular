@@ -1,0 +1,61 @@
+
+    <div class="product-container ">
+
+        <div id="grid-table">
+
+            <div class="product-card" *ngFor="let product of allProducts">
+ 
+                    <div class="image">
+                        <img [src]="product.image" alt="Product Image" height="200px" width="200px">
+                    </div>
+                    <div class="details">
+                        <h2>{{product.name}}</h2>
+                        <div *ngIf="product.spPrice !== undefined ; else block" class="price-details">
+                            <p class="price" Style=" text-decoration: line-through; color: black; padding-right: 10px;">
+                                ₹{{product.price}}
+                            </p><span class="price">₹{{product.spPrice}} SP.Price</span>
+                        </div>
+                        <ng-template #block>
+                            <p class="price">₹{{product.price}}</p>
+                        </ng-template>
+                        <p class="description">{{product.description}}</p>
+                        <button class="btn" (click)="getProductid(product.id,product.name)">Veiw</button>
+                    </div>
+           
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- <mat-grid-list cols="3"  rowHeight="350px" gutterSize="16px" >
+            <mat-grid-tile *ngFor="let product of allProducts" class="product-tile"
+                (click)="getProductid(product.id,product.name)">
+                <div class="product-card">
+                    <div class="image">
+                        <img [src]="product.image" alt="Product Image" height="200px" width="200px">
+                    </div>
+                    <div class="details">
+                        <h2>{{product.name}}</h2>
+                        <div *ngIf="product.spPrice !== undefined ; else block" class="price-details">
+                            <p class="price" Style=" text-decoration: line-through; color: black; padding-right: 10px;">₹{{product.price}}
+                            </p><span class="price">₹{{product.spPrice}} SP.Price</span>
+                        </div>
+                        <ng-template #block>
+                            <p class="price">₹{{product.price}}</p>
+                        </ng-template>
+                        <p class="description">{{product.description}}</p>
+                        <button class="btn" (click)="getProductid(product.id,product.name)">Veiw</button>
+                    </div>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div> -->

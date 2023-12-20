@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+  <div class="res"><img src="../../assets/logo.jpg" alt="logo" width="200px">
+    <i class="fa fa-bars" *ngIf = "innerWidth <= 768"  (click) = toggleDisplayDivIf()></i>
+</div>
+  
+  <nav class="shift" >
+
+    <ul   [style.display]="!isShowDivIf ? 'block' : 'none'" >
+      <li routerLinkActive="active-link"  [routerLinkActiveOptions]="{exact: true}"><a routerLink="" >Home</a></li>
+      <li routerLinkActive="active-link"><a routerLink="/aboutus">About</a></li>
+      <li routerLinkActive="active-link"><a routerLink="/category">Category</a></li>
+      <li routerLinkActive="active-link">
+        <a routerLink="/cart">Cart
+          <span class="cart-icon" (click)="toggleCart()">
+            <i class="fa fa-shopping-cart"></i>
+            <sup class="sup" *ngIf="cartTotalQuantity$ | async as cartTotalQuantity">{{ cartTotalQuantity }}</sup>
+          </span>
+        </a>
+      </li>
+      <!-- <li routerLinkActive="active-link"><a routerLink="">Offers</a></li> -->
+    </ul>
+  </nav>
+  
+</nav>
+
+</body>
+</html>
+
+
